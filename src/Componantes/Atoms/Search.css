@@ -1,0 +1,37 @@
+
+
+input{
+   margin:  20px;
+   padding: 20px; 
+   height: 20px;
+   width: 300px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 0px 0px 8px black;
+}
+
+#search-icon{
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+.Result-list{
+    color: black;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px black;
+    margin-top: 1rem;
+    max-height: 600px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+.search_result{
+    padding: 20px;
+
+}
+.search_result:hover{
+    background-color: #efefef;
+}
